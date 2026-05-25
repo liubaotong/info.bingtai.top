@@ -14,11 +14,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "艾草 — 千年药草 · 百草之王",
+  title: "冰台 · 艾草 — 千年药草 百草之王",
   description:
-    "探索艾草的千年历史渊源、药用价值、治病故事与文化传承。一株艾草，承载千年医药智慧；一缕艾烟，传承中华文明血脉。",
+    "探索艾草的千年历史渊源、称谓文化、药用价值、治病故事、奇用妙法与文化传承。冰台，艾草之古称，削冰令圆，以艾承影，引天火而济苍生。",
   keywords: [
     "艾草",
+    "冰台",
+    "bingtai",
     "艾灸",
     "中医",
     "中药",
@@ -27,11 +29,12 @@ export const metadata: Metadata = {
     "端午",
     "本草纲目",
     "传统文化",
+    "阳燧取火",
   ],
-  authors: [{ name: "艾草文化传承" }],
+  authors: [{ name: "冰台 bingtai" }],
   openGraph: {
-    title: "艾草 — 千年药草 · 百草之王",
-    description: "探索艾草的千年历史渊源、药用价值、治病故事与文化传承",
+    title: "冰台 · 艾草 — 千年药草 百草之王",
+    description: "探索艾草的千年历史渊源、称谓文化、药用价值、治病故事与文化传承",
     type: "website",
   },
 };
