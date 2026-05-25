@@ -12,7 +12,6 @@ import {
   Package,
   Utensils,
   ChevronDown,
-  Leaf,
   Sun,
   Sword,
   Sparkles,
@@ -925,7 +924,14 @@ function StickyNav() {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
         <div className="flex items-center gap-2">
-          <Leaf className="h-5 w-5 text-[#4a7c59]" />
+          <Image
+            src="/images/logo.jpg"
+            alt="冰台 logo"
+            width={32}
+            height={32}
+            className="h-8 w-8 rounded-full object-cover"
+            unoptimized
+          />
           <span className="font-bold text-[#2c3e2d]">冰台</span>
           <span className="text-xs text-[#4a7c59]/60">bingtai</span>
         </div>
@@ -954,7 +960,14 @@ function Footer() {
     <footer className="bg-[#1e3a2b] py-12 text-center">
       <div className="mx-auto max-w-6xl px-4">
         <div className="mb-4 flex items-center justify-center gap-2">
-          <Leaf className="h-5 w-5 text-[#7bae7f]" />
+          <Image
+            src="/images/logo.jpg"
+            alt="冰台 logo"
+            width={40}
+            height={40}
+            className="h-10 w-10 rounded-full object-cover"
+            unoptimized
+          />
           <span className="text-lg font-semibold text-white/90">冰台</span>
           <span className="text-sm text-[#7bae7f]/60">bingtai</span>
         </div>

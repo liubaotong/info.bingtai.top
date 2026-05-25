@@ -32,6 +32,9 @@ export const metadata: Metadata = {
     "阳燧取火",
   ],
   authors: [{ name: "冰台 bingtai" }],
+  icons: {
+    icon: "/images/logo.jpg",
+  },
   openGraph: {
     title: "冰台 · 艾草 — 千年药草 百草之王",
     description: "探索艾草的千年历史渊源、称谓文化、药用价值、治病故事与文化传承",
